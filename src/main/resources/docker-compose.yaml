@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+  mysql:
+    image: mysql:8
+    ports:
+      - 3306:3306
+    volumes:
+      - ~/apps/mysql:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=@blink182
+      - MYSQL_PASSWORD=@blink182
+      - MYSQL_USER=dedito182
+      - MYSQL_DATABASE=johnwick182
