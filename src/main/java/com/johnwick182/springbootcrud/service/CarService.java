@@ -1,4 +1,4 @@
-package com.johnwick182.springbootcrud;
+package com.johnwick182.springbootcrud.service;
 import com.johnwick182.springbootcrud.model.Car;
 import com.johnwick182.springbootcrud.repository.CarRepository;
 import org.springframework.beans.factory.annotation.Autowired;
